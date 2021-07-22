@@ -1,0 +1,7 @@
+FROM nginx
+MAINTAINER ben lee <5575492q@gmail.com>
+
+
+EXPOSE 80
+
+COPY ./defualt /etc/nginx/site_available/defualt

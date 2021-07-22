@@ -1,0 +1,4 @@
+from tomcat8
+MAINTAINER ben lee <5575492q@gmail.com>
+
+EXPOSE 8080
