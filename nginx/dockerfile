@@ -4,4 +4,4 @@ MAINTAINER ben lee <5575492q@gmail.com>
 
 EXPOSE 80
 
-VOLUME .nginx/defualt:/etc/nginx/site_available/defualt
+copy nginx/defualt /etc/nginx/site_available/defualt
