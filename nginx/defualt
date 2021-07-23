@@ -27,7 +27,7 @@ server {
         listen 80 default_server;
         listen [::]:80 default_server;
 	location / {
-		proxy_pass http://app;
+		proxy_pass http://was;
 	}
 
         # SSL configuration
