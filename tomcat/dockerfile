@@ -1,4 +1,4 @@
-from tomcat8:latest
+from tomcat:9.0
 MAINTAINER ben lee <5575492q@gmail.com>
 
 EXPOSE 8080
