@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  proxy:
+    build: 
+      dockerfile: ./nginx/dockerfile
+    ports:
+      - "80:80"
+  was:
+    build:
+      dockerfile: ./tomcat/dockerfile
+    ports:
+      - "8080:8080"
