@@ -11,5 +11,7 @@ services:
     build:
       context: .
       dockerfile: ./tomcat/dockerfile
+      voluemse :
+        - www:/usr/local/tomcat/webapps
     ports:
       - "8080:8080"
