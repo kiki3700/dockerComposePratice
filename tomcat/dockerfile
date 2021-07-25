@@ -3,4 +3,3 @@ MAINTAINER ben lee <5575492q@gmail.com>
 
 EXPOSE 8080
 
-volume ./www:/usr/local/tomcat/webapps

@@ -13,3 +13,5 @@ services:
       dockerfile: ./tomcat/dockerfile
     ports:
       - "8080:8080"
+    volumes:
+      - ./www:/usr/local/tomcat/webapps
