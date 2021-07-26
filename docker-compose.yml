@@ -20,4 +20,4 @@ services:
       context: .
       dockerfile: ./jenkins/dockerfile
     ports:
-      - "3030:8080:
+      - "3030:8080"
