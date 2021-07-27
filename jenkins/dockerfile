@@ -1,3 +1,5 @@
 FROM jenkins/jenkins
 
 USER root
+
+EXPOSE 3030
