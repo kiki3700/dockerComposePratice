@@ -5,5 +5,3 @@ USER root
 EXPOSE 3030
 
 RUN apt-get install maven -y
-
-VOLUME 
