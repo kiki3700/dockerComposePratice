@@ -21,3 +21,5 @@ services:
       dockerfile: ./jenkins/dockerfile
     ports:
       - "3030:8080"
+    volumes:
+      - ./www:/var/jenkins_home/workspace
