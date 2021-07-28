@@ -1,7 +1,6 @@
 from tomcat:9.0
 MAINTAINER ben lee <5575492q@gmail.com>
 
-RUN sudo apt install maven -y
 
 EXPOSE 8080
 
