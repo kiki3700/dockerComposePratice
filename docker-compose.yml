@@ -7,6 +7,7 @@ services:
       dockerfile: ./nginx/dockerfile
     ports:
       - "80:80"
+    restart: always
   was:
     build:
       context: .
@@ -15,6 +16,7 @@ services:
       - "8080:8080"
     volumes:
       - ./www:/usr/local/tomcat/webapps
+    restart: always
   jenkins:
     build:
       context: .
@@ -22,4 +24,5 @@ services:
     ports:
       - "3030:8080"
     volumes:
-      - ./www:/var/jenkins_home/workspace
+      - ./www:/var/jenkins_home/workspace/test/target
+    restart: always
